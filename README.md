@@ -2,8 +2,10 @@
 
 Simple utility to join split files.  Run with Python 3 in a directory
 containing files with names such as example.avi.001, example.avi.002,
-etc.  If everything goes well, those files will be joined into the
-original example.avi and the split pieces deleted.
+etc. or specify paths containing split files as commandline arguments.
+If everything goes well, those files will be joined into the
+original example.avi and the split pieces deleted.  Run with no arguments
+to see additional options.
 
 
 NOTE: This software was written quickly for personal use and currently lacks
